@@ -6,7 +6,13 @@
 
 // let is block-scoped or local scoped
 // Does not allow to redeclare variable with same name
-// Hoisting Does not occur
+// Initialization is not mandatory with declaration and re-initialization is possible
+// Hoisting does not occur
+
+// const is block-scoped or local scoped
+// Does not allow to redeclare variable with same name.
+// Initialization is mandatory with declaration and re-initialization of const variable with another value is not possible.
+// Hoisting does not occur
 
 // var
 var a = "Var is used"
